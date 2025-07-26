@@ -1,3 +1,5 @@
+
+
 import random
 
 num = random.randint(1,100)
@@ -9,9 +11,7 @@ while True:
     chute = int(input(f"Chute {detalhe} número: "))
     detalhe = "outro"
     tentativa +=1
-
     if chute != num:
-        
         if chute < num:
             print("Está baixo")
         else:
