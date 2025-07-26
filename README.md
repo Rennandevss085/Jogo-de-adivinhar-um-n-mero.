@@ -25,7 +25,6 @@ while True:
                 print(f"Parabéns!! O número era {num}, foi bom mas pode melhorar! Você acertou em {tentativa} tentativas.")
             else: 
                 print(f"Parabéns!! O número era {num}, precisa de mais sorte :( ou mais intuição, você acertou em {tentativa} tentativas.")    
-
     continua = input("Quer continuar? (Y/N): ")    
     match continua.lower():
         case "y":
